@@ -51,7 +51,7 @@ nav > a{
     color: #fff;
     font-weight: 500;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 @media (min-width: 320px) and (max-width:575px){
     .main-menu{
@@ -59,6 +59,7 @@ nav > a{
     }
     nav{
         padding-top: 10px;
+        padding-right: 5px;
     }
 }
 @media (min-width: 575px) and (max-width:991px){
