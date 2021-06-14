@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form-style.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>ExoticPets - Contactanos</title>
+</head>
+<body>
+    <header class="main-menu">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Contact.html">Contacto</a>
+        </nav>
+        <section class="textos-header"> 
+            <h1>ExoticPets</h1>
+            <h2>Contáctanos</h2>
+        </section>
+        <div class="wave"><svg viewbox="0 0 500 150" preserveaspectratio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: whitesmoke;"></path></svg></div>
+    </header>
+
+    <b><p class="text-1">Indícanos tus sugerencias o preguntas. Estamos atentos!</p></b>
+    <section class="section-form">
+        <form action="" method="POST" id="form">
+            <div class="form">
+                <div class="grupo">
+                    <label for=""> Ingresa tu nombre</label>
+                    <input type="text" name="" id="name" ><span class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <label for="">Motivo de contacto</label>
+                    <input type="text" name="" id="motivo" list="list" ><span class="barra"></span>
+                        <datalist id="list">
+                            <option>Sugerencia</option>
+                            <option>Pregunta</option>
+                        </datalist>
+                </div>
+                <div class="grupo">
+                    <label for="">Ingresa tu correo electrónico</label>
+                    <input type="email" name="" id="email" ><span class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <label for="">Deja tu mensaje</label>
+                    <input type="text" name="" id="mensaje" ><span class="barra"></span>
+                </div>
+                <button type="submit">Enviar</button>
+                <p class="warnings" id="warnings"></p>
+            </div>
+        </form>
+    </section>
+    <b><p class="text-2">Recuerda seguirnos en nuestras Redes Sociales</p></b>
+    <section class="social-media">
+        <div class="s-media">
+            <p class="sm"><img class="ft" src="img/insta.png">  ExoticPets</p>
+            <p><img class="ft" src="img/face.png">  ExoticPets</p>
+        </div>
+    </section>
+   
+    <footer class="pie">
+        <div class="footer">
+            <div class="footer-1">
+                <p>Encuentranos en:</p>
+                <div class="footer-sm">
+                    <div class="footer-sm-2">
+                        <i class="fa fa-instagram"></i>
+                        <p>ExoticPets</p>
+                    </div>
+                    <div class="footer-sm-2">
+                        <i class="fa fa-facebook"></i>
+                        <p>ExoticPets</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-2">
+                <p class="t">Todos los derechos reservados &copy; ExoticPets</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/form.js"></script>
+</body>
+</html>
