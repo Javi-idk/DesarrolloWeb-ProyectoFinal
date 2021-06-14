@@ -53,6 +53,7 @@ header .textos-header{
 
 .section-page .container-2{
     display: flex;
+    padding-top: 1rem;
     padding-bottom: 2rem;
 }
 .section-page .container-2 .description{
