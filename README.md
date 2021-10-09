@@ -30,5 +30,9 @@ _Detalles del proyecto:_
  
   * El formulario con validación se encuentra en "Contacto".
   * No tengo los derechos de las imágenes y video utilizado. Los derechos a quien corresponda. ✌️ 
+
+_Para visualizar la página puedes entrar a:_
  
+https://javi-idk.github.io/DesarrolloWeb-ProyectoFinal/
+
 ⌨️ con 🖤 por [Javi]
